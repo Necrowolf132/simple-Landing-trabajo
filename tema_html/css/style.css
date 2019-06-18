@@ -136,6 +136,92 @@
  .my-jumbotron {
     background-color: #f4f7f6;
  }
+ .my-jumbotron h1 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #242424;
+ }
+ .my-jumbotron a {
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+  background-color: #abca8b;
+  border-color: #abca8b;
+}
+.my-jumbotron a:hover {
+  background-color: #97c26c;
+  border-color: #97c26c;
+}
+.my-jumbotron p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #b7b7b7;
+}
+.testimonials h1 {
+  font-size: 24px;
+  color: #a2a9b2;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.testimonials p {
+  color: #a2a9b2;
+  font-size: 15px;
+  font-weight: 200;
+}
+.feactured-block .backgraund-blue {
+  background-color: #f2fbff
+}
+.backgraund-blue h5 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #788b94;
+}
+.backgraund-blue h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+}
+.backgraund-blue p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #788b94;
+}
+.blog h1 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #757575;
+}
+.blog a {
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  text-decoration: underline;
+}
+.blog a:hover {
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+}
+.blog button {
+  background-color: white;
+  font-size: 19px;
+  color: black;
+  border: none;
+  box-shadow: 0px 0px 3px #000000
+}
+.profile h2 {
+  color: #77bcdb;
+  font-size:13px;
+  font-weight: 600;
+}
+.profile h3 {
+  color: #9c9fa1;
+  font-size: 10px;
+}
+footer .nav-link {
+  color: #585858;
+  font-size: 15px;
+}
  @media (min-width: 991px) {
     #navbarNav {
         flex-grow: 0 !important;
@@ -143,6 +229,12 @@
      #navbarNav ul {
         float: right !important;
     }
+    .my-jumbotron p {
+      max-width: 70%
+  }
+  .minimizar {
+    max-width: 50%;
+  }
  }
  @media (max-width: 991px) {
     #navbarNav .navbar-nav {
@@ -150,5 +242,6 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        background-color: white;
     } 
  }
